@@ -1,31 +1,27 @@
 package test_project03;
 
 import java.util.Scanner;
-<<<<<<< HEAD
 
-import test_project03_gas.Gas;
-import test_project03_soyoung.Diesel;
+import test_project03_gas.gas;
+import test_project03_joohui.Wash_joohui;
 import test_project03_lampoil.LampOil_hjm;
-=======
 import test_project03_soyoung.Diesel;
-import test_project03_lampoil.LampOil_hjm;
 
->>>>>>> ca027c257c5e6837e2d39234e01b6673ee70588e
+
 
 public class test_project03 {
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-<<<<<<< HEAD
-		Diesel disel = new Diesel();
-		LampOil_hjm hjm = new LampOil_hjm();
-		Gas gas = new Gas();
-=======
 
 		Diesel disel = new Diesel();
 		LampOil_hjm hjm = new LampOil_hjm();
+		gas gas = new gas();
 
->>>>>>> ca027c257c5e6837e2d39234e01b6673ee70588e
+		
+		Wash_joohui wa = new Wash_joohui();
+
+
 		int num;
 		System.out.println("===웰컴 주유소===");
 		while(true) {
@@ -54,6 +50,7 @@ public class test_project03 {
 				break;
 			case 5:
 				System.out.println("세차");
+				wa.Wash();
 				break;
 			}
 		}
