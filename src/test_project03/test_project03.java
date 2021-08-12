@@ -2,10 +2,13 @@ package test_project03;
 
 import java.util.Scanner;
 
+import test_project03_lampoil.LampOil_hjm;
+
 public class test_project03 {
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		LampOil_hjm hjm = new LampOil_hjm();
 		int num;
 		System.out.println("===웰컴 주유소===");
 		while(true) {
@@ -18,6 +21,21 @@ public class test_project03 {
 			num = input.nextInt();
 			
 			switch(num) {
+			case 1:
+				System.out.println("휘발유");
+				break;
+			case 2:
+				break;
+			case 3:
+				System.out.println("등유");
+				hjm.LampOil();
+				break;
+			case 4:
+				System.out.println("계산");
+				break;
+			case 5:
+				System.out.println("세차");
+				break;
 			}
 		}
 	}
