@@ -1,22 +1,18 @@
 package test_project03;
 
 import java.util.Scanner;
-
-<<<<<<< HEAD
 import test_project03_soyoung.Diesel;
-=======
 import test_project03_lampoil.LampOil_hjm;
->>>>>>> 7c1597f94f6a28040f022794a1f77c19d95bb6b1
+
 
 public class test_project03 {
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-<<<<<<< HEAD
+
 		Diesel disel = new Diesel();
-=======
 		LampOil_hjm hjm = new LampOil_hjm();
->>>>>>> 7c1597f94f6a28040f022794a1f77c19d95bb6b1
+
 		int num;
 		System.out.println("===웰컴 주유소===");
 		while(true) {
