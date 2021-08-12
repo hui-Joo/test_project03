@@ -2,6 +2,7 @@ package test_project03;
 
 import java.util.Scanner;
 
+import test_project03_gas.Gas;
 import test_project03_lampoil.LampOil_hjm;
 
 public class test_project03 {
@@ -9,6 +10,7 @@ public class test_project03 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		LampOil_hjm hjm = new LampOil_hjm();
+		Gas gas = new Gas();
 		int num;
 		System.out.println("===¿£ƒƒ ¡÷¿Øº“===");
 		while(true) {
@@ -23,6 +25,7 @@ public class test_project03 {
 			switch(num) {
 			case 1:
 				System.out.println("»÷πﬂ¿Ø");
+				gas.gas();
 				break;
 			case 2:
 				break;
